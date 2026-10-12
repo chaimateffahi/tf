@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+    
+}
+
+.fiche {
+    background-color: white;
+    margin: 50px auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+.badge {
+    color: white;
+   
+}
+
+.badge-info {
+    background-color: blue;
+}
+
+.badge-elec {
+    background-color: orange;
+}
+
+.badge-defaut {
+    background-color: gray;
+}
