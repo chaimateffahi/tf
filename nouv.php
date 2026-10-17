@@ -50,6 +50,7 @@ $statut = "Non admis(e)";
 <?php if ($estBoursier) { ?>
 <p>🎓 Boursier</p>
 <?php } ?>
+<button type="button"> Imprimer la fiche</button>
 </div>
 </body>
 </html>
