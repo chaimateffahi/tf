@@ -38,6 +38,7 @@ if ($moyenne >= 10) {
 } else {
 $statut = "Non admis(e)";
 }
+$email = "chaima.tffahi@sesame.com.tn";
 
 ?>
 
@@ -49,8 +50,9 @@ $statut = "Non admis(e)";
 <p><?php echo $statut; ?></p>
 <?php if ($estBoursier) { ?>
 <p>🎓 Boursier</p>
+<p>Email : <?php echo $email; ?></p>
 <?php } ?>
-<button type="button"> Imprimer la fiche</button>
+
 </div>
 </body>
 </html>
